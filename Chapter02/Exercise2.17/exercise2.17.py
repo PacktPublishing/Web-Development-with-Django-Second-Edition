@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-from reviews.models import Contributor
+from reviews.models import Publisher
 
-Contributor.objects.get(last_names='Wharton').delete()
+Publisher.objects.filter(Q(name__startswith="New") | Q(name__startswith="Idea"))
 
-Contributor.objects.get(last_names='Wharton')
+Publisher.objects.filter(Q(name__startswith="New") & Q(name__endswith="Publisher"))

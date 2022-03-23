@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 
-from reviews.models import Contributor
+from reviews.models import Publisher
 
-Contributor.objects.get(last_names='Wharton').delete()
+publishers = [Publisher.objects.get(name='New Town Publisher'), Publisher.objects.get(name='Byron Bay Press')]
 
-Contributor.objects.get(last_names='Wharton')
+publishers[0].website = "www.newsouthwalespublisher.com"
+publishers[2].website = "www.newsouthwalespublisher.com"
+
+Publisher.objects.bulk_update(publishers, ["website"])
