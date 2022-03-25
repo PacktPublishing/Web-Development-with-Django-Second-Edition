@@ -4,6 +4,10 @@ from .models import Book
 from .utils import average_rating
 
 
+def index(request):
+    return render(request, "base.html")
+
+
 def book_search(request):
     search_text = request.GET.get("search", "")
     return render(request, "search-results.html", {"search_text": search_text})
@@ -27,7 +31,7 @@ def book_list(request):
     context = {
         'book_list': book_list
     }
-    return render(request, 'reviews/books_list.html', context)
+    return render(request, 'reviews/book_list.html', context)
 
 
 def book_detail(request, pk):
