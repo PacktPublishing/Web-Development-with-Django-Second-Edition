@@ -28,7 +28,7 @@ class Book(models.Model):
                                           through="BookContributor")
 
     def __str__(self):
-        return self.title
+        return f"{self.title} ({self.isbn})"
 
 
 class Contributor(models.Model):
