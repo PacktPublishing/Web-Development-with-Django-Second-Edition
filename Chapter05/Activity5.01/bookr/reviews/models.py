@@ -75,3 +75,6 @@ class Review(models.Model):
     book = models.ForeignKey(
         Book, on_delete=models.CASCADE, help_text="The Book that this review is for."
     )
+
+    def __str__(self):
+        return "{} - {}".format(self.creator.username, self.book.title)
