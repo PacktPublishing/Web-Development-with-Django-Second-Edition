@@ -1,0 +1,4 @@
+asgiref==3.4.1
+Django==4.0
+Pillow==9.0.1
+sqlparse==0.4.2
