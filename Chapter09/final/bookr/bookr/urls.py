@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf import settings
 from django.conf.urls.static import static
-from django.contrib import admin
+from django.contrib import admin, auth
 from django.urls import include, path
 
 from bookr.views import profile
@@ -23,9 +23,19 @@ import reviews.views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("accounts/",
-         include(("django.contrib.auth.urls", "auth"),
-                 namespace="accounts")),
+    path(
+        "accounts/", include(("django.contrib.auth.urls", "auth"), namespace="accounts")
+    ),
+    path(
+        "accounts/password_reset/done/",
+        auth.views.PasswordResetDoneView.as_view(),
+        name="password_reset_done",
+    ),
+    path(
+        "accounts/reset/done/",
+        auth.views.PasswordResetCompleteView.as_view(),
+        name="password_reset_complete",
+    ),
     path("accounts/profile/", profile, name="profile"),
     path("", reviews.views.index),
     path("book-search/", reviews.views.book_search, name="book_search"),
