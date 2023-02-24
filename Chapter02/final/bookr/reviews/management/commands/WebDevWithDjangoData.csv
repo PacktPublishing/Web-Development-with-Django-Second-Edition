@@ -80,6 +80,7 @@ The Talisman,PeterStraub@example.com,CO_AUTHOR,,,
 The Talisman,StephenKing@example.com,CO_AUTHOR,,,
 ,,,,,
 content:Review,,,,,
-review_content,review_rating,review_date_created,review_date_edited,review_creator,review_book
-A must read for all,5,2020-01-04 16:31:40.376237,2020-01-04 16:31:40.376237,bob.black@example.com,Advanced Deep Learning with Keras
-An ok read,3,2020-01-04 16:31:40.376237,2020-01-04 16:31:40.376237,carol.brown@example.com,Advanced Deep Learning with Keras
+review_content,review_rating,review_date_created,review_date_edited,review_creator_username,review_creator_email,review_creator_first_name,review_creator_last_name,review_book
+A must read for all,5,2020-01-04 16:31:40.376237,2020-01-04 16:31:40.376237,bob,bob.black@example.com,Bob,Black,Advanced Deep Learning with Keras
+An ok read,3,2020-01-04 16:31:40.376237,2020-01-04 16:31:40.376237,carol,carol.brown@example.com,Carol,Brown,Advanced Deep Learning with Keras
+Excellent intro,3,2020-01-04 16:31:40.376237,2020-01-04 16:31:40.376237,eve,eve.pink@example.com,Eve,Pink,Advanced Deep Learning with Keras
