@@ -21,7 +21,7 @@ def initialled_name(obj):
     => 'Salinger, JD'"""
     initials = "".join([name[0] for name in obj.first_names.split(" ")])
     return "{}, {}".format(obj.last_names, initials)
-
+ 
 
 class ContributorAdmin(admin.ModelAdmin):
     list_display = ("last_names", "first_names")
@@ -40,6 +40,5 @@ class ReviewAdmin(admin.ModelAdmin):
 admin.site.register(Publisher)
 admin.site.register(Contributor, ContributorAdmin)
 admin.site.register(Book, BookAdmin)
-# admin.site.register(Book)
 admin.site.register(BookContributor)
 admin.site.register(Review, ReviewAdmin)
