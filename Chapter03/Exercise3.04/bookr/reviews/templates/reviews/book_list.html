@@ -18,7 +18,7 @@
       <span class="text-secondary">Provide a rating and write the first review for this book.</span>
       <br>
       {% endif %}
-      <a class="btn btn-primary btn-sm active" role="button" href="{% url 'book_detail' item.book.pk %}">Reviews</a>
+      <a class="btn btn-primary btn-sm active" role="button" aria-pressed="true" href="/book/{{ item.book.id }}/">Reviews</a></li>
   </li>
   {% endfor %}
 </ul>
