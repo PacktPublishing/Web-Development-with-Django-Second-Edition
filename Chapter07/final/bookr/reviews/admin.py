@@ -40,6 +40,5 @@ class ReviewAdmin(admin.ModelAdmin):
 admin.site.register(Publisher)
 admin.site.register(Contributor, ContributorAdmin)
 admin.site.register(Book, BookAdmin)
-# admin.site.register(Book)
 admin.site.register(BookContributor)
 admin.site.register(Review, ReviewAdmin)
