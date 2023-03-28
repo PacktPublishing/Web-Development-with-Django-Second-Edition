@@ -35,7 +35,7 @@ def profile(request):
     plot_html = plot(figure, output_type='div')
 
     return render(request, 'profile.html',
-            {'user': user, 'permissions': permissions, 'books_read_plot': plot_html}
+            {'user': user, 'permissions': permissions, 'books_read_plot': plot_html})
 
 
 @login_required
