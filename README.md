@@ -1,8 +1,8 @@
-# Web Development with Django
+# Web Development with Django - Second Edition
 
 <a href="https://www.packtpub.com/product/web-development-with-django-second-edition/9781803230603?utm_source=github&utm_medium=repository&utm_campaign="><img src="https://content.packt.com/B18654/cover_image_small.jpg" alt="" height="256px" align="right"></a>
 
-This is the code repository for [Web Development with Django](https://www.packtpub.com/product/web-development-with-django-second-edition/9781803230603?utm_source=github&utm_medium=repository&utm_campaign=), published by Packt.
+This is the code repository for [Web Development with Django - Second Edition](https://www.packtpub.com/product/web-development-with-django-second-edition/9781803230603?utm_source=github&utm_medium=repository&utm_campaign=), published by Packt.
 
 **A definitive guide to building modern Python web applications using Django 4**
 
