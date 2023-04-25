@@ -55,7 +55,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 *  Django 4 for the Impatient [[Packt]](https://www.packtpub.com/product/django-4-for-the-impatient/9781803245836?utm_source=github&utm_medium=repository&utm_campaign=9781803245836) [[Amazon]](https://www.amazon.com/dp/1803245832)
 
 
-## Get to Know the Author
+## Get to Know the Authors
 **Ben Shaw** is a software engineer based in Auckland, New Zealand. He has worked as a developer for
 over 16 years and has been building websites with Django since 2007. In that time, his experience has
 helped many diff erent types of companies, ranging in size from start-ups to large enterprises. He is
