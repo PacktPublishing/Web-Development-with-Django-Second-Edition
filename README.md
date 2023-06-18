@@ -54,6 +54,8 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 *  Django 4 for the Impatient [[Packt]](https://www.packtpub.com/product/django-4-for-the-impatient/9781803245836?utm_source=github&utm_medium=repository&utm_campaign=9781803245836) [[Amazon]](https://www.amazon.com/dp/1803245832)
 
+## Errata 
+ * Page 136, Exercise 3.03 (code snippet number 2, for the "bookr/reviews/views.py code):  The function **book_search** _should be_ **book_list**
 
 ## Get to Know the Authors
 **Ben Shaw** is a software engineer based in Auckland, New Zealand. He has worked as a developer for
@@ -81,6 +83,6 @@ backend systems. When not creating soft ware, he enjoys cooking delicious food.
 
 
 ## Other books by the authors
-[Web Development with Django](https://www.packtpub.com/product/web-development-with-django/9781839212505?utm_source=github&utm_medium=repository&utm_campaign=9781839212505)
+* [Web Development with Django](https://www.packtpub.com/product/web-development-with-django/9781839212505?utm_source=github&utm_medium=repository&utm_campaign=9781839212505)
 
-[Hands-On Enterprise Application Development with Python](https://www.packtpub.com/product/hands-on-enterprise-application-development-with-python/9781789532364?utm_source=github&utm_medium=repository&utm_campaign=9781789532364)
+* [Hands-On Enterprise Application Development with Python](https://www.packtpub.com/product/hands-on-enterprise-application-development-with-python/9781789532364?utm_source=github&utm_medium=repository&utm_campaign=9781789532364)
